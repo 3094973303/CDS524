@@ -76,7 +76,8 @@ Episode 1000/1000 | Success rate: 93% | Avg steps: 11.7
 ```
 
 ### 可视化界面
-![Maze UI Demo](docs/ui_demo.gif)  <!-- 需替换为实际截图 -->
+![Maze UI Demo](docs/ui_demo.gif)  <!--  -->
+![1](https://github.com/user-attachments/assets/7d5b2b36-268f-41cf-bff9-523782ad12ef)
 
 ## 核心算法
 Q-learning更新规则：
@@ -95,5 +96,24 @@ A: 尝试：
 1. 在`config.yaml`中编辑`maze_layout`
 2. 确保包含唯一起点(2)和终点(3)
 3. 保持5x5的矩阵格式
-
+使用说明
+直接运行：将代码保存为maze_q_learning.py
+安装依赖：
+pip install pygame numpy
+启动程序：
+python maze_q_learning.py
+运行效果
+控制台输出：
+开始训练...
+训练进度: 0/500
+训练进度: 100/500
+训练进度: 200/500
+训练进度: 300/500
+训练进度: 400/500
+训练完成，开始演示!
+可视化界面：
+蓝色圆点表示智能体
+绿色为起点，红色为终点
+紫色为陷阱，黑色为墙壁
+智能体会自动演示最优路径
 
